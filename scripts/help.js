@@ -37,43 +37,43 @@ module.exports = {
             let message = '';
             let totalCommands = 0;
             for (const category in categories) {
-                message += `╭──『 ${category.toUpperCase()} 』\n`;
+                message += `╭──⭓『 ${category.toUpperCase()} 』\n`;
                 let commandCount = 0;
                 for (let i = 0; i < categories[category].length; i++) {
                     if (commandCount === 3) {
                         message += '\n';
                         commandCount = 0; 
                     }
-                    message += `✧${categories[category][i]} `;
+                    message += `⭔${categories[category][i]} `;
                     commandCount++;
                 }
                 message += '\n';
-                message += '╰───────────◊\n';
+                message += '╰───────────⭓\n';
                 totalCommands += categories[category].length;
             }
 
             if (uncategorized.length > 0) {
-                message += `╭──『 UNCATEGORIZED 』\n`;
+                message += `╭──⭓『 UNCATEGORIZED 』\n`;
                 let commandCount = 0;
                 for (let i = 0; i < uncategorized.length; i++) {
                     if (commandCount === 3) {
                         message += '\n'; 
                         commandCount = 0; 
                     }
-                    message += `✧${uncategorized[i]} `;
+                    message += `⭔${uncategorized[i]} `;
                     commandCount++;
                 }
                 message += '\n';
-                message += '╰───────────◊\n';
+                message += '╰───────────⭓\n';
                 totalCommands += uncategorized.length;
             }
 
-            message += '╭────────────◊\n';
+            message += '╭────────────⭓\n';
             message += `│ » Total commands: ${totalCommands}\n`;
             message += '│ » A Powerful Telegram bot\n';
             message += '│ » By Eijah & JARiF\n';
-            message += '╰────────◊\n';
-            message += '「 Annie Bot 」';
+            message += '╰────────⭓\n';
+            message += '「 Sojib Bot 」';
 
             bot.sendMessage(chatId, message);
         } else {
