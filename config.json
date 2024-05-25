@@ -1,14 +1,18 @@
 {
     "tg": [
-        "get_the_bot_token_from_tg_botfather"
+        "7060644565:AAFSWd92ontqoNMmqvWmG874Rjx4Ysvoftg "
     ],
-    "prefix": "-",
-    "webhookURL": "your_webhookURL", 
+    "prefix": ".",
+    "webhookURL": "https://ahmed-sojib.netlify
+    app", 
     "supportGroupText": "Welcome to the bot! Type `help to see all available commands.\nJoin the support box to know how to use or how to create these types of bots: https://t.me/+YNKDd9_jIeYxNDQ1",
-    "prefixText": "🌐 System prefix:",
-    "botName": "annie",
+    "prefixText": "✨𝗛𝗶 𝗙𝗿𝗶𝗲𝗻𝗱!✨
+    𝗧𝗵𝗶𝘀 𝗶𝘀 𝗺𝘆 𝗣𝗿𝗲𝗳𝗶𝘅 [.]
+    𝗧𝗢 𝗩𝗜𝗘𝗪 𝗔𝗟𝗟 𝗢𝗙 𝗧𝗛𝗘
+    𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘  𝗖𝗢𝗠𝗠𝗔𝗡𝗗, 𝗧𝗬𝗣𝗘 [.𝗛𝗘𝗟𝗣]",
+    "botName": "Sojib",
     "adminUids": [
-     "6371757771"
+     "5667649387"
     ],
     "PORT": 3000,
     "note": "bot name is important but add a single name. add supportGroupText,add the webhookURL for spying : )"
